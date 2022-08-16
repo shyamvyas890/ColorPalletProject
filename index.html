@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    </head>
+    <body>
+        <div id="master">
+            <div id="color-div">        
+                    <input id="colorInput" type="color"/>
+                    <select id="schemes">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                    <button id="generate">Get Color Scheme</button>
+            </div>
+                <div id="colors">
+                    <div class="column" id="col1"></div>
+                    <div class="column" id="col2"></div>
+                    <div class="column" id="col3"></div>
+                    <div class="column" id="col4"></div>
+                    <div class="column" id="col5"></div>
+                </div>
+                <div id="hex">
+                    <div class="hexval"></div>
+                    <div class="hexval"></div>
+                    <div class="hexval"></div>
+                    <div class="hexval"></div>
+                    <div class="hexval"></div>
+                </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-div{
+    width:550px;
+    height:90px;
+    margin:auto;  
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+input{
+    width:51px;
+    height:34px;
+}
+select{
+    width:312px;
+    height:42px;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+}
+button{
+    width:123px;
+    height:42px;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+}
+
+#colors{
+    height:414px;
+    width:550px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column{
+    width:110px;
+    height:414px;
+}
+
+#hex{
+    width:550px;
+    height:46px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hexval{
+    width:110px;
+    height:46px;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
